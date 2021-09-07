@@ -1,6 +1,8 @@
-import React from 'react'
-import Ads from '../ads/Ads'
-import CategoryTag from '../tagarchive/CategoryTag'
+import React from 'react';
+import Ads from '../ads/Ads';
+import CategoryTag from '../tagarchive/CategoryTag';
+import Covid from '../../assets/imges/covid.png';
+import training from '../../assets/imges/training.png';
 const tag = [
     {
         id: 1,
@@ -56,7 +58,10 @@ const SideBar = () => {
             <h4 className="py-2 px-6 bg-indigo-600 hover:bg-indigo-700 text-white m-5 font-semibold font-bold">
                 SPONSOR
             </h4>
-            <Ads/>
+            <Ads photo={training}/>
+            <Ads photo={Covid}/>
+            <div>
+            </div>
         </div>
     )
 }
