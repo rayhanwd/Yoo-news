@@ -20,19 +20,19 @@ const Nav = () => {
                                     <Link to="/technology" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
                                         TECHNNOLOGY
                                     </Link>
-                                    <Link to="/" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
+                                    <Link to="/food" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
                                         FOOD
                                     </Link>
-                                    <Link to="/" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
+                                    <Link to="/lifestyle" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
                                         LIFE STYLE
                                     </Link>
-                                    <Link to="/" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
+                                    <Link to="/finance" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
                                         FINANCE
                                     </Link>
-                                    <Link to="/" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
+                                    <Link to="/about" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
                                         ABOUT
                                     </Link>
-                                    <Link to="/" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
+                                    <Link to="/contact" className="text-gray-400  hover:text-purple-600 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium">
                                         CONTACT
                                     </Link>
                                 </div>

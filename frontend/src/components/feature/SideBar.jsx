@@ -3,6 +3,7 @@ import Ads from '../ads/Ads';
 import CategoryTag from '../tagarchive/CategoryTag';
 import Covid from '../../assets/imges/covid.png';
 import training from '../../assets/imges/training.png';
+import FacebookPage from '../facebookPage/FacebookPage';
 const tag = [
     {
         id: 1,
@@ -60,6 +61,7 @@ const SideBar = () => {
             </h4>
             <Ads photo={training}/>
             <Ads photo={Covid}/>
+            <FacebookPage/>
             <div>
             </div>
         </div>
